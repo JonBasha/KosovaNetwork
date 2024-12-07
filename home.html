@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Home - Kosova Network</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="home.html">Kosova Network</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <div class="slider">
+        <div class="slide">
+            <img src="https://images.pexels.com/photos/210412/pexels-photo-210412.jpeg" alt="City View 1">
+        </div>
+        <div class="slide">
+            <img src="https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg" alt="City View 2">
+        </div>
+        <div class="slide">
+            <img src="https://images.pexels.com/photos/164338/pexels-photo-164338.jpeg" alt="City View 3">
+        </div>
+    </div>
+    <div class="container my-5">
+        <h1 class="text-center">Search for your destination</h1>
+        <div class="input-group">
+            <input type="text" id="searchInput" class="form-control" placeholder="Search for cities or attractions...">
+            <div class="input-group-append">
+                <button class="btn btn-primary" id="searchButton" onclick="searchAttractions()">Search</button>
+            </div>
+        </div>
+        <div id="searchResults" class="mt-3"></div>
+    </div>
+    <div class="hero-text text-center">
+        <h1>Welcome to Kosova Network</h1>
+        <p>Your gateway to the best experiences in Kosovo.</p>
+        <p>This is my first project Kosova Network, which is a website that offers the user to browse and search everything about Kosova, starting with its nature, places to eat, places to visit, etc.</p>
+        <a href="products.html" class="btn btn-success">Explore Products</a>
+    </div>
+
+    <footer class="text-center py-4 mt-auto">
+        <p>&copy; 2024 Kosova Network. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/search.js"></script> 
+</body>
+</html>

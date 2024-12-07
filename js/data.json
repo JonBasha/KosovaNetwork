@@ -1,0 +1,44 @@
+{
+    "cities": [
+        {
+            "name": "Pristina",
+            "attractions": [
+                "Newborn Monument",
+                "Germia Park",
+                "Imperial Mosque"
+            ]
+        },
+        {
+            "name": "Mitrovica",
+            "attractions": [
+                "Mitrovica Bridge",
+                "Gazi Mehmet Pasha Mosque",
+                "The Kosovo Museum"
+            ]
+        },
+        {
+            "name": "Gjakova",
+            "attractions": [
+                "Gjakova Bazaar",
+                "Hadum Mosque",
+                "The Ethnographic Museum"
+            ]
+        },
+        {
+            "name": "Peja",
+            "attractions": [
+                "Visoki Decani Monastery",
+                "Rugova Canyon",
+                "The Old Bazaar"
+            ]
+        },
+        {
+            "name": "Ferizaj",
+            "attractions": [
+                "The Memorial Complex",
+                "The City Park",
+                "The Ferizaj Castle"
+            ]
+        }
+    ]
+}
